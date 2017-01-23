@@ -1,0 +1,71 @@
+.section-intro {
+  max-width: 800px; }
+  .section-intro h5 {
+    padding-bottom: 2em; }
+  .section-intro .lead {
+    padding-top: 1.5em; }
+
+#intro {
+  background: #14181E url(../images/intro-bg.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 720px;
+  display: table;
+  position: relative; }
+
+.header_hr {
+  width: 22em;
+  margin-left: auto;
+  margin-right: 1em;
+  border: solid #ff4594;
+  border-width: 6px 0 0; }
+
+.via_logo img {
+  max-width: 23em;
+  float: right;
+  margin-top: 32%;
+  margin-bottom: 1.3em; }
+
+.panel_left {
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  min-height: 720px;
+  display: table;
+  position: relative; }
+
+.logo_text {
+  padding-top: 1em;
+  line-height: 2em;
+  font-size: 20px;
+  float: right;
+  font-family: sans-serif;
+  max-width: 19em;
+  text-align: right;
+  padding-right: 1em;
+  color: black; }
+
+.panel_right {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.panels_cont {
+  margin: 0;
+  width: inherit;
+  max-width: none; }
+
+.section-intro .with-bottom-line::after {
+  background-color: #ff4594; }
+
+.register_form {
+  padding-right: 4em;
+  padding-left: 4em; }
+  .register_form input {
+    width: 100%; }
+  .register_form .form-sub {
+    width: 15em; }
+
+/*# sourceMappingURL=myStyles.css.map */
