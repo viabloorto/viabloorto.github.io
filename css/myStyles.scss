@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
 .section-intro {
     max-width: 800px;
     
@@ -50,6 +52,9 @@
 }
 
 .logo_text {
+    .text {
+        margin-bottom: 2rem;
+    }
     padding-top: 1em;
     line-height: 2em;
     font-size: 20px;
@@ -59,6 +64,35 @@
     text-align: right;
     padding-right: 1em;
     color: black;
+}
+
+.btn {
+    border: #ff4594 2px solid;
+    color: #7b7b7b !important;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.location {
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 21px;
+    letter-spacing: 2.5px;
+    -webkit-transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s;
+}
+
+.location:hover {
+    // background-color: #f9d8e6;
+    // color: white !important;
+    background-color: #fff1f7;
+    color: #fd92bf !important;
+}
+
+.spacing {
+    height: 1em;
 }
 
 .panel_right {
@@ -92,6 +126,11 @@
     }
 }
 
+// Location
+.map_img {
+    padding-top: 2em;
+}
+
 @media(max-width: 768px) {
     #intro {
         height: 83%;
@@ -117,6 +156,7 @@
         padding-top: 0em;
         line-height: 1.4em;
         font-size: 18px;
+        padding-bottom: 1.35em;
     }
 
     .panels_cont {
