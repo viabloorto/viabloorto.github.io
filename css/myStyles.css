@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
+#process {
+  padding-top: 7em; }
+
 .section-intro {
   max-width: 800px; }
   .section-intro h5 {
     padding-bottom: 2em; }
   .section-intro .lead {
     padding-top: 1.5em; }
+  .section-intro h1 {
+    margin-bottom: 0.5em;
+    padding-bottom: 0; }
 
 #intro {
   background: #14181E url(../images/intro-bg.png) no-repeat center;
@@ -31,7 +37,7 @@
   margin-bottom: 1.3em; }
 
 .panel_left {
-  background-color: white;
+  background-color: #282626;
   background-size: cover;
   height: 100%;
   min-height: 720px;
@@ -49,7 +55,8 @@
   padding-right: 1em;
   color: black; }
   .logo_text .text {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    color: white; }
 
 .btn {
   border: #ff4594 2px solid;
@@ -67,8 +74,11 @@
   -webkit-transition: background-color 1s, color 1s;
   transition: background-color 1s, color 1s; }
 
+.location-top {
+  color: white !important; }
+
 .location:hover {
-  background-color: #fff1f7;
+  background-color: rgba(255, 241, 247, 0.19);
   color: #fd92bf !important; }
 
 .spacing {
@@ -148,6 +158,43 @@
   background-size: cover;
   min-height: 13em;
   border-left: white 10px solid; }
+
+.info_start {
+  font-family: sans-serif; }
+
+.vb2_title {
+  font-size: 2em !important;
+  padding-bottom: 1em;
+  font-family: "raleway-bold", sans-serif !important; }
+
+.deets {
+  padding-bottom: 2.8em; }
+  .deets .details {
+    display: inline-block; }
+  .deets .details-right {
+    padding-left: 1em; }
+
+.vb1_banner {
+  text-align: center;
+  background: #282626;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: none;
+  width: inherit;
+  padding-top: 3em;
+  padding-bottom: 4em;
+  margin-bottom: 4em;
+  margin-top: 4.5em; }
+  .vb1_banner h3 {
+    color: #f1f1f1;
+    font-size: 3rem;
+    padding-bottom: 0.5em; }
+  .vb1_banner p {
+    color: #f1f1f1;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1em; }
 
 @media (max-width: 768px) {
   #intro {
